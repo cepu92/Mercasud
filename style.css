@@ -1,19 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
-    background-color: #f0f0f0;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: blue;
+    background-image: url('https://source.unsplash.com/1600x900/?fruits');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    border: none;
-    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-button:hover {
-    background-color: darkblue;
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
 }
