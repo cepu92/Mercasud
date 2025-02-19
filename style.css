@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('https://source.unsplash.com/1600x900/?fruits');
+    background-image: url('sfondo.jpg'); /* Usa l'immagine caricata */
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Sposta il contenuto in alto */
+    padding-top: 50px; /* Aggiunge spazio sopra il testo */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -16,4 +17,5 @@ body {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
+    max-width: 80%;
 }
